@@ -1,0 +1,26 @@
+
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: utf8
+  database: sample_project_development
+  pool: 5
+  username: 
+  password: 
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: utf8
+  database: sample_project_test
+  pool: 5
+  username: 
+  password: 
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: sample_project_production
+  pool: 5
+  username:
+  password:
